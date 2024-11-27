@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# MacOs Route Manager
+
 # Set backup directory and use timestamp for backup files
 BACKUP_DIR="$HOME/.route_backups"
 TIMESTAMP=$(date +"%Y%m%d_%H%M%S")
