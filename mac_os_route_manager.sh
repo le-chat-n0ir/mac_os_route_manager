@@ -53,7 +53,7 @@ restore_routes() {
     fi
 
     echo "Warning: This will modify your current routing table."
-    read -p "Are you sure you want to continue? (y/n): " confirm
+    read -p -r "Are you sure you want to continue? (y/n): " confirm
     if [ "$confirm" = "y" ]; then
         echo "Restoring routing table..."
         # First, backup current state
